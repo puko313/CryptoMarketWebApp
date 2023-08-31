@@ -1,0 +1,24 @@
+{
+  "name": "crypto-market-app-blz-backend",
+  "version": "1.0.0",
+  "description": "Backend for Bluzelle CrytoMarketApp",
+  "author": "Davide Serafini <davide@davideserafini.com>",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "axios-retry": "^3.1.9",
+    "bluzelle": "^3.0.6",
+    "delay": "^4.4.0",
+    "lodash": "^4.17.21",
+    "p-all": "^2.1.0",
+    "p-map": "^4.0.0",
+    "p-retry": "^4.1.0",
+    "serverless": "^1.50.0",
+    "sharp": "^0.28.0"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.543.0",
+    "serverless-dotenv-plugin": "^3.0.0"
+  }
+}
